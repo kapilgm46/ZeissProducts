@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeiss.Product.API", "Zeiss.Product.API.csproj", "{D3D9BEE0-7121-4D48-B34E-C5B5A12003A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeiss.Product.Services", "..\Zeiss.Product.Services\Zeiss.Product.Services.csproj", "{4AF9B660-2FB4-4B02-9C1E-94A8DCE6F80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeiss.Product.DAL", "..\Zeiss.Product.DAL\Zeiss.Product.DAL.csproj", "{3481C803-4FF9-4C19-9C73-1C947616250F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zeiss.Product.Test", "..\Zeiss.Product.Test\Zeiss.Product.Test.csproj", "{05A0C01E-E622-43B7-8A7F-683500B08684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3D9BEE0-7121-4D48-B34E-C5B5A12003A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3D9BEE0-7121-4D48-B34E-C5B5A12003A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3D9BEE0-7121-4D48-B34E-C5B5A12003A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3D9BEE0-7121-4D48-B34E-C5B5A12003A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF9B660-2FB4-4B02-9C1E-94A8DCE6F80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF9B660-2FB4-4B02-9C1E-94A8DCE6F80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF9B660-2FB4-4B02-9C1E-94A8DCE6F80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF9B660-2FB4-4B02-9C1E-94A8DCE6F80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3481C803-4FF9-4C19-9C73-1C947616250F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3481C803-4FF9-4C19-9C73-1C947616250F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3481C803-4FF9-4C19-9C73-1C947616250F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3481C803-4FF9-4C19-9C73-1C947616250F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A0C01E-E622-43B7-8A7F-683500B08684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A0C01E-E622-43B7-8A7F-683500B08684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A0C01E-E622-43B7-8A7F-683500B08684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A0C01E-E622-43B7-8A7F-683500B08684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D2ED48C-1331-4E11-90BF-10724AB298B7}
+	EndGlobalSection
+EndGlobal
